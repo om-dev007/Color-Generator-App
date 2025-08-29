@@ -21,7 +21,7 @@ function timeChange() {
 }
 
 startBtn.addEventListener('click', () => {
-    intervalId = setInterval(timeChange, 1000)
+    intervalId = setInterval(timeChange, 2000)
     console.log('clicked start btn');
 })
 
