@@ -1,4 +1,4 @@
-let bgColor = document.querySelector('#changeBg')
+let bgChange = document.querySelector('#changeBg')
 const startBtn = document.querySelector('.startbtn')
 const stopBtn = document.querySelector('.stopbtn')
 const codeDisplay = document.querySelector('.colorCode')
@@ -17,7 +17,7 @@ function randomColor() {
 }
 
 function timeChange() {
-    bgColor.style.backgroundColor = randomColor()
+    bgChange.style.backgroundColor = randomColor()
 }
 
 startBtn.addEventListener('click', () => {
