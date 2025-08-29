@@ -23,12 +23,6 @@ This project is hosted live on **Netlify** and was created to practice **DOM Man
 
 ---
 
-## 📷 Preview
-![Color Generator Screenshot](https://i.ibb.co/2cJtK27/color-generator.png)  
-*(Add your own screenshot here by uploading inside repo and changing the link)*
-
----
-
 ## 🚀 How to Run Locally
 1. Clone the repo  
    ```bash
