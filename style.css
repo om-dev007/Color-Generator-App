@@ -21,7 +21,8 @@ body {
     color: #e6eef8;
     display: flex;
     justify-content: center;
-    padding: 32px;
+    height: 125vh;
+    align-items: center;
 }
 
 .btn {
@@ -50,14 +51,14 @@ body {
 }
 
 .btn div button:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(2, 6, 23, 0.6)
+    transform: translateY(-0.5em);
+    box-shadow: 0 2.5em 6em rgba(2, 6, 23, 0.6)
 }
 
 .bg-color {
     background-color: #fff;
-    height: 400px;
-    width: 400px;
+    height: 20em;
+    width: 25em;
     position: relative;
     margin-top: 2em;
     border-radius: 1em;
@@ -67,4 +68,36 @@ body {
     margin: 2em 0em;
     padding: 1em;
     text-align: center;
+}
+
+@media (max-width: 750px) and (min-width: 550px) {
+    .bg-color {
+        height: 15em;
+        width: 20em;
+    }
+}
+
+@media (max-width: 549px) and (min-width: 375px) {
+    .bg-color {
+        height: 13em;
+        width: 18em;
+    }
+}
+
+@media (max-width: 374px) and (min-width: 300px) {
+    .bg-color {
+        height: 10em;
+        width: 15em;
+    }
+}
+
+@media (max-width: 299px) {
+    body {
+        font-size: 0.7em;
+    }
+
+    .bg-color {
+        height: 9em;
+        width: 14em;
+    }
 }
